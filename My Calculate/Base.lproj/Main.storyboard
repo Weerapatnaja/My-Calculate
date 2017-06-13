@@ -88,6 +88,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="answerLabel" destination="Ahr-oC-O7B" id="ehd-5J-2mo"/>
                         <outlet property="num1textfield" destination="tJQ-dS-CWa" id="iIi-Fo-Byq"/>
                         <outlet property="num2textfield" destination="xut-06-EPu" id="M5O-gk-2DW"/>
                     </connections>
