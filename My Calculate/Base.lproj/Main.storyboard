@@ -53,6 +53,9 @@
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="Answer"/>
+                                <connections>
+                                    <action selector="answerbutton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hYu-0E-Aqr"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="*********" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ahr-oC-O7B">
                                 <rect key="frame" x="130" y="343" width="154" height="40.666666666666686"/>
@@ -84,6 +87,10 @@
                             <constraint firstItem="xut-06-EPu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="122" id="xxk-vV-AAG"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="num1textfield" destination="tJQ-dS-CWa" id="iIi-Fo-Byq"/>
+                        <outlet property="num2textfield" destination="xut-06-EPu" id="M5O-gk-2DW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
